@@ -20,13 +20,10 @@ def nerv(func):
       t = datetime.datetime.now() - t
 
       with open('Record.txt', 'a') as f:
-            f.write("\n")
-            f.write("_" * 20)
-            f.write("\n")
+      
             f.write("Переводим " + str(calc) + " " + str(in_type) + " в " + str(convert_to) + "\n")
             f.write("Результат: " + str(result) + " " + str(convert_to) +"\n")
             f.write("Время выполнения декорируемой функции " +  str(t))
-            f.write("\n")
       return result
   return wrapper  
 
