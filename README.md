@@ -105,6 +105,8 @@ result = convert(calc)
 print (calc, in_type, " = ", result, convert_to)
 ```
 
+![alt](https://github.com/python-advance/sem5-deco-1-KsushaSeliv/blob/master/21.JPG)
+
 <h1>Вариантное задание</h1>
 2.3 Разработка функции-декоратора, вычисляющей время выполнения декорируемой функции.
 
